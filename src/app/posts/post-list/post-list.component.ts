@@ -11,5 +11,5 @@ export class PostListComponent {
   //   {title:"Second Post", content:"this is the content"},
   //   {title:"Third Post", content:"this is the content"},
   // ]
-  @Input() posts= [];
+  @Input() posts: any[] = [];
 }
