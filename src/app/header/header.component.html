@@ -1,1 +1,13 @@
-<mat-toolbar color="primary">My Messages</mat-toolbar>
+<mat-toolbar color="primary">
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>My App</span>
+  <span class="example-spacer"></span>
+  <button mat-raised-button color="accent" class="menu-button" routerLink="/create">
+    Create
+  </button>
+  <button mat-raised-button color="accent" class="menu-button" routerLink="/">
+    View
+  </button>
+</mat-toolbar>
